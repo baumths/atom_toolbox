@@ -1,5 +1,5 @@
 name: atom_toolbox
-description: An Application ToolBox that helps you install and manage the Access To Memory Software.
+description: An Application ToolBox that helps you install and manage the Access
   To Memory Software.
 publish_to: 'none'
 
@@ -12,6 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  pty: ^0.1.1
+  xterm: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +24,12 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+  fonts:
+    - family: Merienda
+      fonts:
+        - asset: assets/fonts/Merienda/Merienda-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Merienda/Merienda-Regular.ttf
+    - family: Fira Code
+      fonts:
+        - asset: assets/fonts/Fira_Code/FiraCode-Regular.ttf
